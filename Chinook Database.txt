@@ -1,0 +1,39 @@
+Chinook Database
+https://database.guide/2-sample-databases-sqlite/
+
+
+1. First, save the Chinook_Sqlite.sql script to a folder/directory on your computer.
+https://github.com/lerocha/chinook-database/blob/master/ChinookDatabase/DataSources/Chinook_Sqlite.sql
+
+2. Open the folder/directory in command prompt.
+
+3. Now create a database called Chinook. You can do this by connecting to SQLite with the following command:
+sqlite3 Chinook.db
+
+4. Now you can run the script. To run it from the file, use the following command:
+.read Chinook_Sqlite.sql
+This assumes that you’re in the same directory as the file, and that the file is called Chinook_Sqlite.sql.
+
+5. Once the script has finished running, you can verify that it created the database by selecting some data from a table. For example, you could run the following:
+
+6. Command Prompt:
+
+Microsoft Windows [Version 10.0.22631.5189]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\e112576\Desktop\llm_agent\db\Chinook>sqlite3 Chinook.db
+SQLite version 3.45.3 2024-04-15 13:34:05 (UTF-16 console I/O)
+Enter ".help" for usage hints.
+sqlite> .read Chinook_Sqlite.sql
+sqlite> SELECT * FROM Artist LIMIT 10;
+1|AC/DC
+2|Accept
+3|Aerosmith
+4|Alanis Morissette
+5|Alice In Chains
+6|Antônio Carlos Jobim
+7|Apocalyptica
+8|Audioslave
+9|BackBeat
+10|Billy Cobham
+sqlite>

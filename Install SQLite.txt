@@ -1,0 +1,19 @@
+SQLITE
+
+system environment variable
+environment variable
+system variables>Path>Edit
+click new
+C:\Users\e112576\Desktop\Ashish\SQLite\sqlite-tools-win-x64-3490100
+save
+
+go to cmd
+sqlite3
+go to folder directory
+sqlite3 test.db
+.databases
+create table address(id INT PRIMARY KEY);
+.tables
+.schema address
+
+CREATE TABLE all_states_history (date TEXT, state TEXT, death FLOAT, deathConfirmed FLOAT, deathIncrease BIGINT, deathProbable FLOAT, hospitalized FLOAT, hospitalizedCumulative FLOAT, hospitalizedCurrently FLOAT, hospitalizedIncrease BIGINT, inIcuCumulative FLOAT, inIcuCurrently FLOAT, negative FLOAT, negativeIncrease BIGINT, negativeTestsAntibody FLOAT, negativeTestsPeopleAntibody FLOAT, negativeTestsViral FLOAT, onVentilatorCumulative FLOAT, onVentilatorCurrently FLOAT, positive FLOAT, positiveCasesViral FLOAT, positiveIncrease BIGINT, positiveScore BIGINT, positiveTestsAntibody FLOAT, positiveTestsAntigen FLOAT, positiveTestsPeopleAntibody FLOAT, positiveTestsPeopleAntigen FLOAT, positiveTestsViral FLOAT, recovered FLOAT, totalTestEncountersViral FLOAT, totalTestEncountersViralIncrease BIGINT, totalTestResults FLOAT, totalTestResultsIncrease BIGINT, totalTestsAntibody FLOAT, totalTestsAntigen FLOAT, totalTestsPeopleAntibody FLOAT, totalTestsPeopleAntigen FLOAT, totalTestsPeopleViral FLOAT, totalTestsPeopleViralIncrease BIGINT, totalTestsViral FLOAT, totalTestsViralIncrease BIGINT);
